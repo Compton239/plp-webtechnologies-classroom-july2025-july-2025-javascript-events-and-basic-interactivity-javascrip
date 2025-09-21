@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Web Assignment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🎉 Interactive Web Page</h1>
+
+  <!-- Light/Dark Mode Toggle -->
+  <button id="toggleModeBtn">🌙 Toggle Dark Mode</button>
+
+  <!-- Counter Feature -->
+  <section>
+    <h2>Counter Game</h2>
+    <p>Count: <span id="counterValue">0</span></p>
+    <button id="incrementBtn">➕ Increment</button>
+    <button id="decrementBtn">➖ Decrement</button>
+    <button id="resetBtn">🔄 Reset</button>
+  </section>
+
+  <!-- Collapsible FAQ -->
+  <section>
+    <h2>FAQ</h2>
+    <div class="faq-item">
+      <button class="faq-question">What is JavaScript?</button>
+      <p class="faq-answer">JavaScript is the programming language of the web.</p>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">Why use JavaScript?</button>
+      <p class="faq-answer">It makes web pages interactive and dynamic.</p>
+    </div>
+  </section>
+
+  <!-- Form Validation -->
+  <section>
+    <h2>Register Form</h2>
+    <form id="registerForm">
+      <label>Name:</label>
+      <input type="text" id="name" placeholder="Enter your name">
+      <span class="error" id="nameError"></span><br>
+
+      <label>Email:</label>
+      <input type="text" id="email" placeholder="Enter your email">
+      <span class="error" id="emailError"></span><br>
+
+      <label>Password:</label>
+      <input type="password" id="password" placeholder="Enter password">
+      <span class="error" id="passwordError"></span><br>
+
+      <button type="submit">Submit</button>
+    </form>
+    <p
